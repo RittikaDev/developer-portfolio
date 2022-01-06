@@ -1,32 +1,32 @@
 /* body {
   margin: 0 auto;
 } */
-.hero-section {
+.container {
   display: flex;
   margin: 0 30px;
 }
-.hero-section .col {
+.container .col {
   width: 50%;
   padding-left: 9%;
 }
-.hero-section .vertical {
+.container .vertical {
   border-left: 6px solid black;
   height: 78px;
   position: absolute;
   margin-left: -15px;
   margin-top: 28px;
 }
-.hero-section .col1 {
+.container .col1 {
   margin-top: 5%;
 }
-.hero-section .col1 p {
+.container .col1 p {
   text-align: justify;
 }
 h1 {
   font-family: "Licorice", cursive;
   font-family: "Lobster", cursive;
 }
-.hero-section h2 {
+.container h2 {
   color: red;
 }
 .col button {
@@ -40,10 +40,16 @@ h1 {
   background-color: red;
   box-shadow: 0 0 10px rgb(24, 175, 36);
 }
-.hero-section .col2 img {
+.container .col2 img {
   width: 60%;
   height: 90%;
 }
+.skills{
+  margin: 0 180px;
+}
 .style {
   box-shadow: 0 0 10px rgb(24, 175, 36);
+  width: 50%;
+  margin: 0 20px;
+  padding: 10px 20px;
 }
