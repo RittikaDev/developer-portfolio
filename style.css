@@ -1,13 +1,19 @@
-/* body {
-  margin: 0 auto;
-} */
+body {
+  margin: 0 150px;
+}
+p{
+  font-size: 28px;
+}
+h2{
+  font-size: 40px;
+}
 .container {
   display: flex;
   margin: 0 30px;
 }
 .container .col {
   width: 50%;
-  padding-left: 9%;
+  
 }
 .container .vertical {
   border-left: 6px solid black;
@@ -18,15 +24,16 @@
 }
 .container .col1 {
   margin-top: 5%;
+  
 }
 .container .col1 p {
   text-align: justify;
 }
-h1 {
+.hero-section h1 {
   font-family: "Licorice", cursive;
   font-family: "Lobster", cursive;
 }
-.container h2 {
+.hero-section h2 {
   color: red;
 }
 .col button {
@@ -40,16 +47,26 @@ h1 {
   background-color: red;
   box-shadow: 0 0 10px rgb(24, 175, 36);
 }
-.container .col2 img {
-  width: 60%;
-  height: 90%;
+.col2 img {
+  width: 53%;
+  height: 83%;
+  padding-left: 30%;
 }
-.skills{
+/* .skills{
   margin: 0 180px;
+} */
+.skills h1{
+  text-align: center;
 }
 .style {
   box-shadow: 0 0 10px rgb(24, 175, 36);
+  border-radius: 5px;
   width: 50%;
   margin: 0 20px;
   padding: 10px 20px;
+  text-align: justify;
+}
+.service .col1 img {
+  width: 60%;
+  height: 90%;
 }
